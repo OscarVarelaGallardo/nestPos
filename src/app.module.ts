@@ -15,7 +15,8 @@ import { ProductsModule } from './products/products.module';
     }),
 
     TypeOrmModule.forRoot(typeOrmConfig), // ✅ esta línea es la conexión con la DB
-    CategoriesModule, ProductsModule,
+    CategoriesModule,
+    ProductsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
